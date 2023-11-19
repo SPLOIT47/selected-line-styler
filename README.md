@@ -31,3 +31,7 @@ To change the default color and opacity, click the status bar item 'Line Selecti
 ## License
 
 This project is licensed under the terms of the MIT license.
+
+## Git repository
+
+https://github.com/SPLOIT47/selected-line-styler
