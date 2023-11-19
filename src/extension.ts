@@ -49,7 +49,7 @@ input[type=color] {
     border: none;
     width: 60px;
     height: 60px;
-    border-radius: 0; // Changed from 30px to 0
+    border-radius: 0;
     cursor: pointer;
 }
 input[type=number] {
@@ -58,7 +58,7 @@ input[type=number] {
     padding-left: 6px;
 }
 button {
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -83,7 +83,6 @@ button:hover {
     <button onclick="sendColor()">Apply</button>
 
     <script type="text/javascript" charset="utf-8">
-        // Handle messaging
         function sendColor() {
             const picker = document.getElementById('picker');
             const alpha = document.getElementById('alpha');
@@ -129,7 +128,6 @@ button:hover {
       status_bar_item.text = 'Line Selection: OFF';
       vscode.window.showInformationMessage('Extension disabled');
       
-      // Очищение декораций
       indentation_decoration_types.forEach(type => {
         if (vscode.window.activeTextEditor) {
           vscode.window.activeTextEditor.setDecorations(type, []); 
