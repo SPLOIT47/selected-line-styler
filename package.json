@@ -1,0 +1,41 @@
+{
+  "name": "selected-line-styler",
+  "displayName": "Selected Line Styler",
+  "publisher": "SPLOIT47",
+  "version": "0.0.1",
+  "icon": "resources/humster.png",
+  "description": "Extension that adds color to selected line, improving readability of your code",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.toggle",
+        "title": "Toggle Extension"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "extension-pack": [],
+  "author": {
+    "name": "SPLOIT47"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vscode": "^1.63.0"
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SPLOIT47/selected-line-styler.git"
+  }
+}
