@@ -2,7 +2,7 @@
 
 This Visual Studio Code extension allows users to customize the color and opacity of the currently selected line in the editor to improve readability.
 
-This extension was created by SPLOIT47 and is licensed under the MIT license.
+This extension was created by Degtyar Alexander(ITMO M3108) and is licensed under the MIT license.
 
 ## Features
 
